@@ -2,7 +2,7 @@ const app = {};
 
 app.init = function() {
 	$('form').on('submit', function(e) {
-		e.defaultPrevented();
+		event.defaultPrevented();
 		let artists = $('input[type=search]').val();
 		//let validInput=false;
 		//while (validInput=false) {
